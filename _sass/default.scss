@@ -1,0 +1,24 @@
+@charset 'utf-8';
+
+// Couleur background
+$bodyBackgroundColor: $white;
+
+// Couleur par défaut
+$bodyFontColor: $black;
+
+// Police par défaut
+$bodyFontFamily: 'Montserrat', sans-serif;
+$bodyFontFamilySecondary: 'Josefin Sans', sans-serif;
+
+// Taille de police par défaut
+$bodyFontSize: 14px;
+
+// Temps des transitions
+$transitionSpeed: 0.4s;
+
+body {
+	background: $bodyBackgroundColor;
+	color: $bodyFontColor;
+	font-family: $bodyFontFamily;
+	font-size: $bodyFontSize;
+}

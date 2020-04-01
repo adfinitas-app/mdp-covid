@@ -1,0 +1,25 @@
+@charset 'utf-8';
+
+//Font size
+$font-sizes: () !default;
+$font-sizes: map-merge(
+  (
+    "10": 10px !important,
+    "14": 14px !important,
+    "16": 16px !important,
+    "18": 18px !important,
+    "20": 20px !important,
+    "22": 22px !important,
+    "24": 24px !important,
+    "26": 26px !important,
+    "28": 28px !important,
+    "30": 30px !important,
+  ),
+  $font-sizes
+);
+
+@each $size, $value in $font-sizes {
+  .fs-#{$size} {
+    font-size: $value;
+  }
+}

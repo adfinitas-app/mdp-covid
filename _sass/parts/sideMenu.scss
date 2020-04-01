@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+// Side Menu Positionning
+$sideMenu-Width: 400px;
+
+// Side Menu Title
+$sideMenu-TitleColor:$white;
+$sideMenu-TitleFontFamily: $bodyFontFamily;
+$sideMenu-TitleSize: 16px;
+
+// Side Menu SubTitle
+$sideMenu-SubtitleColor: $white;
+$sideMenu-SubtitleFontFamily: $bodyFontFamily;
+$sideMenu-SubtitleSize: 16px;
+
+// Side Menu PriceBtn
+$sideMenu-PriceBtnColor: $white;
+$sideMenu-PriceBtnSize: 20px;
+$sideMenu-PriceBtnFontFamily: $bodyFontFamily;
+$sideMenu-PriceBtnBackgroundColor: $tertiary;
+$sideMenu-PriceBtnBorder: 1px solid $tertiary;
+
+// Side Menu PriceBtn -- ACTIVE
+$sideMenu-PriceBtnColor--active: $black;
+$sideMenu-PriceBtnSize--active: 20px;
+$sideMenu-PriceBtnFontFamily--active: $bodyFontFamily;
+$sideMenu-PriceBtnBackgroundColor--active: $white;
+$sideMenu-PriceBtnBorder--active: 1px solid $white;
+
+// Side Menu InputFreeAmount
+$sideMenu-InputFreeAmountColor: $white;
+$sideMenu-InputFreeAmountBackgroundColor: $tertiary;
+$sideMenu-InputFreeAmountBorder: 1px solid $tertiary;
+$sideMenu-InputFreeAmountPlaceholderColor: $white;
+$sideMenu-InputFreeAmountPicto: url('/assets/img/euro.png');
+
+// Side Menu BtnDonate
+$sideMenu-BtnDonateColor: $black;
+$sideMenu-BtnDonateSize: 22px;
+$sideMenu-BtnDonateFontFamily: 'League Gothic';
+$sideMenu-BtnDonateBackgroundColor: linear-gradient(to bottom, #FBDD00, #E5B100);
+$sideMenu-BtnDonateBorder: 1px solid transparent;
+
+// Side Menu input and button height
+$sideMenu-ButtonHeight: 60px;
+
+// Side Menu defisc
+$sideMenu-DefiscColor: $white;
+$sideMenu-DefiscFontFamily: 'Lucida Grande';
+$sideMenu-DefiscSize: 10px;
+
+// Side Menu CGU
+$sideMenu-CGUColor: $white;
+$sideMenu-CGUFontFamily: 'Montserrat';
+$sideMenu-CGUSize: 12px;
+
+// DESKTOP
+.modal-open .side-menu {
+	right: 24px;
+}
+
+.side-menu {
+	background-color: $primary;
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding: 20px;
+	height: 100vh;
+	width: $sideMenu-Width;
+	
+	.logo {
+		
+	}
+	
+	.title {
+		color: $sideMenu-TitleColor;
+		font-size: $sideMenu-TitleSize;
+		font-family: $sideMenu-TitleFontFamily;
+		line-height: 1.2;
+	}
+	
+	.subtitle {
+		color: $sideMenu-SubtitleColor;
+		font-size: $sideMenu-SubtitleSize;
+		font-family: $sideMenu-SubtitleFontFamily;
+		line-height: 1.2;
+	}
+	
+	.grid-don {
+		padding: 0 15px;
+		
+		
+		.price-grid {
+			.price-btn {
+				color: $sideMenu-PriceBtnColor;
+				font-size: $sideMenu-PriceBtnSize;
+				font-family: $sideMenu-PriceBtnFontFamily;
+				background-color: $sideMenu-PriceBtnBackgroundColor;
+				border: $sideMenu-PriceBtnBorder;
+			}
+			
+			.price-btn.active {
+				color: $sideMenu-PriceBtnColor--active;
+				font-size: $sideMenu-PriceBtnSize--active;
+				font-family: $sideMenu-PriceBtnFontFamily--active;
+				background-color: $sideMenu-PriceBtnBackgroundColor--active;
+				border: $sideMenu-PriceBtnBorder--active;
+			}
+			
+			.price-btn:hover {
+				color: $sideMenu-PriceBtnColor--active;
+				font-size: $sideMenu-PriceBtnSize--active;
+				font-family: $sideMenu-PriceBtnFontFamily--active;
+				background-color: $sideMenu-PriceBtnBackgroundColor--active;
+				border: $sideMenu-PriceBtnBorder--active;
+			}
+		}
+		
+		.container-free-amount {
+			position: relative;
+			padding: 0 11px;
+			
+			.input-free-amount {
+				color: $sideMenu-InputFreeAmountColor;
+				background-color: $sideMenu-InputFreeAmountBackgroundColor;
+				border: $sideMenu-InputFreeAmountBorder;
+				background-image: $sideMenu-InputFreeAmountPicto;
+				background-repeat: no-repeat;
+				background-position: 95% 50%;
+				height: $sideMenu-ButtonHeight;
+				transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+				padding: .375rem 40px .375rem .75rem;
+				
+				&::placeholder {
+					color: $sideMenu-InputFreeAmountPlaceholderColor;
+					opacity: 1;
+				}
+				
+				&::-webkit-input-placeholder {
+					color: $sideMenu-InputFreeAmountPlaceholderColor;
+					opacity: 1;
+				}
+				
+				&:-ms-input-placeholder {
+					color: $sideMenu-InputFreeAmountPlaceholderColor;
+					opacity: 1;
+				}
+			}
+		}
+		
+		.btn-donate {
+			color: $sideMenu-BtnDonateColor;
+			font-size: $sideMenu-BtnDonateSize;
+			font-family: $sideMenu-BtnDonateFontFamily;
+			background-color: $sideMenu-BtnDonateBackgroundColor;
+			border: $sideMenu-BtnDonateBorder;
+			height: $sideMenu-ButtonHeight;
+			padding: 13px 0;
+			margin: 0 11px;
+
+			// FOR FADING
+			background: -webkit-#{$sideMenu-BtnDonateBackgroundColor};
+			background:    -moz-#{$sideMenu-BtnDonateBackgroundColor};
+			background:     -ms-#{$sideMenu-BtnDonateBackgroundColor};
+			background:      -o-#{$sideMenu-BtnDonateBackgroundColor};
+			background:         #{$sideMenu-BtnDonateBackgroundColor};
+		}
+		
+	}
+
+	.defisc {
+		color: $sideMenu-DefiscColor;
+		font-family: $sideMenu-DefiscFontFamily;
+		font-size: $sideMenu-DefiscSize;
+		opacity: 0.5;
+		margin: 0 20px;
+	}
+
+	.cgu, .cgu a {
+		color: $sideMenu-CGUColor;
+		font-family: $sideMenu-CGUFontFamily;
+		font-size: $sideMenu-CGUSize;
+	}
+	
+}

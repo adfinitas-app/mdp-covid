@@ -1,0 +1,31 @@
+@charset 'utf-8';
+
+// Color system
+$white:         #ffffff !default;
+$black:         #000000 !default;
+$grey:          #707070 !default;
+
+$primary:       #A00416 !default;
+$secondary:     #000000 !default;
+$tertiary:      #800312 !default;
+$quaternary:    #800312 !default;
+
+$urgence:       #DA324A !default;
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "white":      $white,
+    "black":      $black,
+    "grey":       $grey,
+
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "tertiary":   $tertiary,
+    "quaternary": $quaternary,
+
+    "urgence":    $urgence,
+  ),
+  $theme-colors
+);

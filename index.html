@@ -1,0 +1,78 @@
+---
+title: "Actualité - COVID-19"
+---
+{%- include progress-bar.html -%}
+
+<!-- MOBILE -->
+<div class="container home-mobile d-md-none">
+    {%- include sidebar_mobile.html -%}
+    {%- include edito_mobile.html -%}
+    <div class="row bandeau-covid bg-urgence">
+        <div class="col">
+          <p class="text-center text-white">
+              {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
+          </p>
+        </div>
+    </div>
+
+    <!-- LINKS -->
+    <div class="row links pt-3 pr-0 pl-0">
+        <div class="col-sm-12 col-md-8">
+            {% include links.html onlyHighlighted=true %}
+        </div>
+        <div class="col-sm-12 col-md-4 d-flex align-items-center">
+            <a href="/liens.html" class="text-bold text-uppercase d-inline-block ml-auto ml-md-0 mt-2 mt-md-0" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
+        </div>
+    </div>
+    <!-- LINKS -->
+
+    <section class="posts">
+        <!-- Pinned -->
+        {% for post in site.posts %}
+        {% if post.isPinned == true %}
+        {% include post_excerpt_mobile.html post=post %}
+        {% endif %}
+        {% endfor %}
+        <!-- Pinned -->
+
+        {% for post in site.posts %}
+        {% if post.isPinned == false %}
+        {% include post_excerpt_mobile.html post=post %}
+        {% endif %}
+        {% endfor %}
+    </section>
+
+    <!-- Popup -->
+    {% include footer_mobile.html %}
+     <!-- End popup -->
+
+</div>
+<!-- END MOBILE -->
+
+<!--DESKTOP-->
+<div class="home d-none d-md-block">
+
+    <!--SIDEBAR-->
+    {%- include sidebar_desktop.html -%}
+    <!--END SIDEBAR-->
+
+    <div class="content">
+        <!--EDITO-->
+        {%- include edito_desktop.html -%}
+        <!--EDITO-->
+
+
+        <div class="blog">
+            <!-- Posts -->
+            <section class="row posts">
+                <div class="col">
+                    {% for post in site.posts %}
+                    {% include post_excerpt_desktop.html post=post %}
+                    {% endfor %}
+                </div>
+            </section>
+            <!-- Posts -->
+        </div>
+    </div>
+</div>
+<!-- END DESKTOP-->
