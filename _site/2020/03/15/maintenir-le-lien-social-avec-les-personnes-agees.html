@@ -65,66 +65,69 @@ document.addEventListener('scroll', function() {
 });
 </script>
 <!-- MOBILE -->
-<div class="container home-mobile d-md-none"><nav class="side-menu-mobile navbar p-0">
-  <a class="navbar-brand" href="#">
+<div class="home-mobile d-md-none">
+    <!-- MENU STICKY --><nav class="side-menu-mobile navbar p-0">
+  <a class="d-flex flex-row w-100" href="#">
     <img class="logo" src="/assets/img/logo-mdp.png" alt="logo" width="80">
+    <img class="logo" src="/assets/img/logo-covid.png" alt="covid" >
   </a>
-  <form class="form-inline mr-2">
-      <a class="btn btn-don btn-primary p-2" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV&frequency=once" role="button">Je fais un don</a>
-  </form>
+
+  <!-- BUTTON DONATE -->
+  <a target="_blank" class="d-block btn-donate w-100 m-0 text-uppercase text-center" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV&frequency=once">
+    JE DONNE
+  </a>
+  <!-- BUTTON DONATE -->
 </nav>
-<div class="row p-3 message-president bg-quaternary text-white">
-    <div class="col">
-      <p class="fs-30 text-condensed text-bold text-uppercase text-center">La Mie de Pain se mobilise</p>
-      <!-- <div class="row">
-          <div class="col-sm-4 col-12">
-              <div class="text-center text-sm-right">
-                  <img src="/_site/uploads/pfp-1024x892-v2.png" alt="president"/>
-              </div>
-          </div>
-          <div class="col-sm-8 col-12">
-              <div class="d-none d-sm-block d-md-none"><br></div>
-              <p class="text-center text-sm-left president-text"><span class="text-bold text-condensed"></span><br> </p>
-          </div>
-      </div> -->
-      <p class="text-bold text-center fs-20">Dans le contexte sanitaire actuel, les Œuvres de la Mie de Pain sont plus que jamais mobilisées pour prendre soin des plus fragiles.</p>
+<!-- MENU STICKY -->
 
-      <p class="mt-4 text-bold click-to-expand">Dès les débuts de l’épidémie de coronavirus, elles ont rappelé les consignes d’hygiène, les gestes barrières et veiller à ce que chacun ait accès au nécessaire pour se laver les mains facilement et régulièrement. Une réunion d’information avec la direction collégiale et un médecin bénévole à l’infirmerie du Refuge, a permis aux salariés et bénévoles de poser leurs questions sur la maladie et la conduite à tenir. <br><br> Afin d’assurer la poursuite de ses missions essentielles et de veiller à la protection du public qu’elles accueillent, ainsi que des équipes salariées et bénévoles, la direction de l’association a travaillé, en amont du passage au stade 3, un plan de continuité, dorénavant actif dans l’ensemble de l’association, concernant les salariés, les bénévoles, ainsi que les personnes accueillies ou hébergées. Objectif : adapter les activités, pour maintenir les activités essentielles de l’association, tout en préservant la santé et la sécurité de tous. <br><br> Grâce à la mobilisation, la vigilance, la responsabilité et la solidarité de tous ses acteurs, et avec certains changements temporaires en termes d’organisation, l’association poursuit sa mission historique : l’assistance aux personnes en danger.</p>
-      <div class="text-center">
-          <img id="arrow-down" class="arrow-down" src="/assets/img/arrow-down.png" alt="fleche vers le bas"/>
-      </div>
+    <!-- EDITO --><!-- HEADER -->
+<header class="edito-mobile">
+    <div class="introduction d-flex align-items-center justify-content-center flex-column text-center">
+        <p class="texte text-bold">Dans le contexte sanitaire actuel, les Œuvres de la Mie de Pain sont plus que jamais mobilisées pour prendre soin des plus fragiles.</p>
+        
+        
+        <a class="d-inline-block show-more-container mb-2" href="/edito.html">
+            <img class="show-more" src="/assets/img/plus.png" alt="+" />
+        </a>
+        
     </div>
-</div>
-<div class="row bandeau-covid bg-urgence">
-        <div class="col">
-          <p class="text-center text-white">
-              Maintenir le lien social avec les personnes agees - Dernière mise à jour <span>01/04/20 23:28</span>
-          </p>
-        </div>
-    </div>
+</header>
+<!-- HEADER --><!-- EDITO -->
 
-     <!-- POST_MOBILE --><div class="row last-update text-center m-2">
-  <div class="col">
-    <span class="last-update-time text-uppercase text-grey"> Article publié le</span>
-    <span class="last-update-time text-bold text-primary">15.03.2020</span>
-  </div>
-</div>
+    <!-- POST_DESKTOP -->
+    <div class="blog">
+        <section class="posts">
 
-<article class="post ">
-
-    <div class="row">
-        <h1 class="mb-2 col post-title text-uppercase text-quaternary">
-                Maintenir le lien social avec les personnes agees
-        </h1>
+<!-- POST -->
+<div class="post ">
+    <!-- GO BACK -->
+    <div class="mb-3">
+        <a href="/">
+            <div class="go-back">
+                <span class="arrow-left mr-2"><img src="/assets/img/fleche-gauche.png" /></span>Revenir à la liste
+            </div>
+        </a>    
     </div>
-    <div class="row">
-        <div class="col">
-            <img class="img-fluid" src="/assets/img/placeholder-post.png" alt="Image post"/>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col post-content text-black mt-2">
-            <p>Pour <strong>maintenir le lien social avec les personnes âgées</strong> accompagnées par l’Association, les équipes de bénévoles des Petits Frères des Pauvres ont immédiatement renforcé l’accompagnement téléphonique auprès des personnes âgées qui le souhaitaient. Les bénévoles sont particulièrement attentifs aux personnes les plus isolées et les plus vulnérables.</p>
+    <!-- GO BACK -->
+    
+    <div class="row no-gutters">
+        <!-- POST CONTENT -->
+        <div class="col-sm-12 col-md-10">
+            <h1 class="title">Maintenir le lien social avec les personnes agees</h1>
+            <div class="row">
+                
+                <div class="col-12">
+                    <img src="/assets/img/placeholder-post.png" class="w-100 mb-2"/>
+                </div>
+                
+                <div class="col-12">
+                    <div class="description">
+                        <p>Pour&nbsp;<strong>maintenir le lien social avec les personnes &acirc;g&eacute;es</strong>&nbsp;accompagn&eacute;es par l'Association, les &eacute;quipes de b&eacute;n&eacute;voles des Petits Fr&egrave;res des Pauvres ont imm&eacute;diatement renforc&eacute; l'accompagnement t&eacute;l&eacute;phonique aupr&egrave;s des personnes &acirc;g&eacute;es qui le souhaitaient. Les b&eacute;n&eacute;voles sont particuli&egrave;rement attentifs aux personnes les plus isol&eacute;es et les plus vuln&eacute;rables.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <p>Pour <strong>maintenir le lien social avec les personnes âgées</strong> accompagnées par l’Association, les équipes de bénévoles des Petits Frères des Pauvres ont immédiatement renforcé l’accompagnement téléphonique auprès des personnes âgées qui le souhaitaient. Les bénévoles sont particulièrement attentifs aux personnes les plus isolées et les plus vulnérables.</p>
 
 <p>Par ailleurs, pour toutes les personnes âgées qui ressentent de la solitude, la ligne d’écoute téléphonique Solitud’écoute des <strong>Petits Frères des Pauvres</strong> a été renforcée afin d’accueillir plus d’appels. Accessible gratuitement au 0 800 47 47 88, le numéro est ouvert tous les jours de la semaine de 15h à 20h), y compris les jours fériés.</p>
 
@@ -132,20 +135,24 @@ document.addEventListener('scroll', function() {
 
 <p>Enfin, localement, de nombreuses initiatives de bénévoles et salariés des Petits Frères des Pauvres sont nées pour apporter du réconfort à nos aînés isolés, notamment avec des petites attentions… C’est le cas en Occitanie, à <a href="https://www.petitsfreresdespauvres.fr/nos-implantations/les-petits-freres-des-pauvres-de-quillan" target="_blank">Quillan</a>, où des bénévoles et le fils adolescent d’une salariée de l’Association se sont mobilisés pour envoyer des cartes postales aux résidents confinés de l’Ehpad de la ville.</p>
 
+            </div>
         </div>
-    </div>
-    
-    
+        <!-- POST CONTENT -->
         
-    
-    
-    
-    <div class="row">
-        <div class="col"></div>
+        
+        
+        
+        
+        
+        <div class="row">
+            <div class="col"></div>
+        </div>
+        
     </div>
-    
-</article>
-<!-- POST_MOBILE -->
+</div>
+<!-- POST --></section>
+    </div>
+    <!-- POST_DESKTOP -->
 
     <!-- Popup -->
     <div class="row">
@@ -286,6 +293,20 @@ document.addEventListener('scroll', function() {
 
 <!-- POST -->
 <div class="post ">
+    <!-- GO BACK -->
+    <div class="row no-gutters mb-3">
+        <div class="col-sm-12 col-md-2">
+        </div>
+        <div class="col-sm-12 col-md-10">
+            <a href="/">
+                <div class="go-back">
+                    <span class="arrow-left mr-2"><img src="/assets/img/fleche-gauche.png" /></span>Revenir à la liste
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- GO BACK -->
+    
     <div class="row no-gutters">
         <!-- POST DATE TIME -->
         <div class="col-sm-12 col-md-2">
@@ -299,22 +320,22 @@ document.addEventListener('scroll', function() {
                 </div>
             </div>
         </div>
-        <!-- POST DATE TIME -->
+        <!-- POST DATE TIME -->    
         
         <!-- POST CONTENT -->
         <div class="col-sm-12 col-md-10">
             <h1 class="title">Maintenir le lien social avec les personnes agees</h1>
             
-                <div class="row">
-                    <div class="col-5">
-                        <img src="/assets/img/placeholder-post.png" class="w-100"/>
-                    </div>
-                    <div class="col-7">
-                        <div class="description">
-                            <p>Pour&nbsp;<strong>maintenir le lien social avec les personnes &acirc;g&eacute;es</strong>&nbsp;accompagn&eacute;es par l'Association, les &eacute;quipes de b&eacute;n&eacute;voles des Petits Fr&egrave;res des Pauvres ont imm&eacute;diatement renforc&eacute; l'accompagnement t&eacute;l&eacute;phonique aupr&egrave;s des personnes &acirc;g&eacute;es qui le souhaitaient. Les b&eacute;n&eacute;voles sont particuli&egrave;rement attentifs aux personnes les plus isol&eacute;es et les plus vuln&eacute;rables.</p>
-                        </div>
+            <div class="row">
+                <div class="col-5">
+                    <img src="/assets/img/placeholder-post.png" class="w-100"/>
+                </div>
+                <div class="col-7">
+                    <div class="description">
+                        <p>Pour&nbsp;<strong>maintenir le lien social avec les personnes &acirc;g&eacute;es</strong>&nbsp;accompagn&eacute;es par l'Association, les &eacute;quipes de b&eacute;n&eacute;voles des Petits Fr&egrave;res des Pauvres ont imm&eacute;diatement renforc&eacute; l'accompagnement t&eacute;l&eacute;phonique aupr&egrave;s des personnes &acirc;g&eacute;es qui le souhaitaient. Les b&eacute;n&eacute;voles sont particuli&egrave;rement attentifs aux personnes les plus isol&eacute;es et les plus vuln&eacute;rables.</p>
                     </div>
                 </div>
+            </div>
             
             <div class="description">
                 <p>Pour <strong>maintenir le lien social avec les personnes âgées</strong> accompagnées par l’Association, les équipes de bénévoles des Petits Frères des Pauvres ont immédiatement renforcé l’accompagnement téléphonique auprès des personnes âgées qui le souhaitaient. Les bénévoles sont particulièrement attentifs aux personnes les plus isolées et les plus vulnérables.</p>
@@ -328,6 +349,16 @@ document.addEventListener('scroll', function() {
             </div>
         </div>
         <!-- POST CONTENT -->
+        
+        
+        
+        
+        
+        
+        <div class="row">
+            <div class="col"></div>
+        </div>
+        
     </div>
 </div>
 <!-- POST --></section>

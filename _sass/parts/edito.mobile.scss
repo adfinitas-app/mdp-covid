@@ -1,0 +1,83 @@
+@charset 'utf-8';
+
+// Edito
+$editoBackgroundColor: $black;
+$editoFontFamily: 'Lucida Grande';
+$editoFontSize: 14px;
+$editoColor: $white;
+
+// Edito title
+$edito-TitleBackgroundColor: transparent;
+$edito-TitleFontFamily: 'Lucida Grande';
+$edito-TitleFontSize: 20px;
+$edito-TitleColor: $white;
+
+// Edito last update time
+$edito-LastUpdateTimeColor: rgba(255, 255, 255, 0.5);
+$edito-LastUpdateTimeFontFamily: 'Lucida Grande';
+$edito-LastUpdateTimeBackgroundColor: transparent;
+$edito-LastUpdateTimeFontSize: 10px;
+
+$edito-DateTimeColor: $urgence;
+$edito-DateTimeSize: 12px;
+
+// Edito introduction
+$edito-IntroductionBackground: url('/assets/img/header.png') no-repeat;
+
+$edito-IntroductionTexteColor: $white;
+$edito-IntroductionTexteFontFamily: 'Lucida Grande';
+$edito-IntroductionTexteFontSize: 20px;
+
+.edito-mobile {
+    color: $editoColor;
+    font-family: $editoFontFamily;
+    background-color: $editoBackgroundColor;
+    font-size: $editoFontSize;
+
+    .title {
+        color: $edito-TitleColor;
+        font-family: $edito-TitleFontFamily;
+        background-color: $edito-TitleBackgroundColor;
+        font-size: $edito-TitleFontSize;
+    }
+
+    .last-update-time {
+        color: $edito-LastUpdateTimeColor;
+        font-family: $edito-LastUpdateTimeFontFamily;
+        background-color: $edito-LastUpdateTimeBackgroundColor;
+        font-size: $edito-LastUpdateTimeFontSize;
+
+        .date {
+            color: $edito-DateTimeColor;
+            font-size: $edito-DateTimeSize;
+        }
+    }
+
+    .introduction {
+        min-height: 190px;
+        background: $edito-IntroductionBackground;
+        background-size: cover;
+
+        .texte {
+            color: $edito-IntroductionTexteColor;
+            font-family: $edito-IntroductionTexteFontFamily;
+            font-size: $edito-IntroductionTexteFontSize;
+            padding: 0 10px;
+        }
+
+        .show-more-container {
+            width: 60px;
+            border-radius: 36%;
+            border: 3px solid $primary;
+            transition: background $transitionSpeed ease-in-out;
+
+            .show-more {
+                padding: 4px 0;
+            }
+ 
+            &:hover {
+                background-color: $primary;
+            }
+        }
+    }
+}

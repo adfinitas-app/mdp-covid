@@ -1,0 +1,11 @@
+<div class="blog-mobile">
+
+    <!-- Posts -->
+    <section class="posts">
+        {% for post in site.posts %}
+            {% include post_excerpt_mobile.html post=post %}
+        {% endfor %}
+    </section>
+    <!-- Posts -->
+
+</div>

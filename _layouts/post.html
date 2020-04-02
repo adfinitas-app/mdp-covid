@@ -5,20 +5,22 @@ layout: default
 {%- include progress-bar.html -%}
 
 <!-- MOBILE -->
-<div class="container home-mobile d-md-none">
+<div class="home-mobile d-md-none">
+    <!-- MENU STICKY -->
     {%- include sidebar_mobile.html -%}
-    {%- include edito_mobile.html -%}
-    <div class="row bandeau-covid bg-urgence">
-        <div class="col">
-          <p class="text-center text-white">
-              {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
-          </p>
-        </div>
-    </div>
+    <!-- MENU STICKY -->
 
-     <!-- POST_MOBILE -->
-     {%- include post_mobile.html -%}
-     <!-- POST_MOBILE -->
+    <!-- EDITO -->
+    {%- include edito_mobile.html -%}
+    <!-- EDITO -->
+
+    <!-- POST_DESKTOP -->
+    <div class="blog">
+        <section class="posts">
+            {%- include post_mobile.html -%}
+        </section>
+    </div>
+    <!-- POST_DESKTOP -->
 
     <!-- Popup -->
     {% include footer_mobile.html %}

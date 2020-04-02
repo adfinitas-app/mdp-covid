@@ -10,9 +10,28 @@ $sideMenuMobileBackgroundColor: $black;
 	left: 0;
 	width: 100%;
 	z-index: 1;
+	min-height: 150px;
 
 	.logo {
 		padding: 10px;
+	}
+
+	.btn-donate {
+		color: $sideMenu-BtnDonateColor;
+		font-size: $sideMenu-BtnDonateSize;
+		font-family: $sideMenu-BtnDonateFontFamily;
+		background-color: $sideMenu-BtnDonateBackgroundColor;
+		border: $sideMenu-BtnDonateBorder;
+		height: $sideMenu-ButtonHeight;
+		padding: 13px 0;
+		margin: 0 11px;
+
+		// FOR FADING
+		background: -webkit-#{$sideMenu-BtnDonateBackgroundColor};
+		background:    -moz-#{$sideMenu-BtnDonateBackgroundColor};
+		background:     -ms-#{$sideMenu-BtnDonateBackgroundColor};
+		background:      -o-#{$sideMenu-BtnDonateBackgroundColor};
+		background:         #{$sideMenu-BtnDonateBackgroundColor};
 	}
 }
 

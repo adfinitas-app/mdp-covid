@@ -1,39 +1,34 @@
-<article class=" post">
-    <div class="row post-publication-time mb-2">
+{% if post.isPinned == true %}
+{% assign classNames = 'pinned' %}
+{% elsif post.urgence_post == true %}
+{% assign classNames = 'urgence' %}
+{% else %}
+{% assign classNames = '' %}
+{% endif %}
 
-        {% if post.isPinned %}
-            <div class="p-3 d-inline-block">
-                <img class="pin" src="{{ "assets/img/pin.png" | relative_url }}" alt="pin"/>
-                <span class="text-quaternary text-bold a-la-une">À LA UNE</span></div>
-        {% else %}
-        <div class="col">
-            <span>{{ post.date | date: '%d.%m.%Y'}}<small class="hour"> {{ post.date | date: 'à %HH%M'}}</small></span>
+<!-- POST -->
+<div class="post {{classNames}}">
+    <div class="row no-gutters">
+        <!-- POST DATE TIME -->
+        <div class="col-sm-12">
+            <div class="d-flex flex-row">
+                <span class="date text-bold text-uppercase">{{post.date | date: '%d %B'}}</span>
+                <span class="time ml-2">à {{post.date | date: '%Hh%M'}}</span>
+            </div>
         </div>
-        {% endif %}
-
-    </div>
-    <div class="row">
-        <h1  class="col post-title text-uppercase p-0">
-            <a href="{{ post.url }}" class="{% if post.urgence_post %}text-quaternary{% else %}text-quaternary{% endif %}">
-                {{ post.title }}
-            </a>
-        </h1>
-    </div>
-    <div class="row mb-2">
-        <div class="col p-0">
-            <a href="{{ post.url }}" class="{% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %}">
-                <img class="img-fluid" src="{{ post.asset_image | relative_url }}" alt="Image post"/>
-            </a>
+        <!-- POST DATE TIME -->
+        
+        <!-- POST CONTENT -->
+        <div class="col-sm-12 col-md-10">
+            <a href="{{post.url}}"><h1 class="title">{{post.title}}</h1></a>
+            {% if post.asset_image %}
+                <a href="{{post.url}}"><img src="{{ post.asset_image | relative_url }}" class="w-100 mb-2"/></a>
+            {% endif %}
+            <div class="description">
+                {{ post.description_html }}
+            </div>
         </div>
+        <!-- POST CONTENT -->
     </div>
-    <div class="row ">
-        <div class="col post-content text-black p-0">
-            {{ post.description_html }}
-        </div>
-    </div>
-    <div class="row">
-        <div class="col p-0">
-            <a href="{{ post.url }}" class="btn btn-outline-quaternary">En savoir plus</a>
-        </div>
-    </div>
-</article>
+</div>
+<!-- POST -->

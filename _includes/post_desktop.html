@@ -8,6 +8,20 @@
 
 <!-- POST -->
 <div class="post {{classNames}}">
+    <!-- GO BACK -->
+    <div class="row no-gutters mb-3">
+        <div class="col-sm-12 col-md-2">
+        </div>
+        <div class="col-sm-12 col-md-10">
+            <a href="/">
+                <div class="go-back">
+                    <span class="arrow-left mr-2"><img src="{{ "assets/img/fleche-gauche.png" | relative_url }}" /></span>Revenir à la liste
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- GO BACK -->
+    
     <div class="row no-gutters">
         <!-- POST DATE TIME -->
         <div class="col-sm-12 col-md-2">
@@ -21,32 +35,46 @@
                 </div>
             </div>
         </div>
-        <!-- POST DATE TIME -->
+        <!-- POST DATE TIME -->    
         
         <!-- POST CONTENT -->
         <div class="col-sm-12 col-md-10">
             <h1 class="title">{{page.title}}</h1>
             {% if page.asset_image %}
-                <div class="row">
-                    <div class="col-5">
-                        <img src="{{ page.asset_image | relative_url }}" class="w-100"/>
-                    </div>
-                    <div class="col-7">
-                        <div class="description">
-                            {{ page.description_html }}
-                        </div>
+            <div class="row">
+                <div class="col-5">
+                    <img src="{{ page.asset_image | relative_url }}" class="w-100"/>
+                </div>
+                <div class="col-7">
+                    <div class="description">
+                        {{ page.description_html }}
                     </div>
                 </div>
+            </div>
             {% else %}
-                <div class="description">
-                    {{ page.description_html }}
-                </div>
+            <div class="description">
+                {{ page.description_html }}
+            </div>
             {% endif %}
             <div class="description">
                 {{page.content}}
             </div>
         </div>
         <!-- POST CONTENT -->
+        
+        {% for video in page.video %}
+        {% if video.video_code_block %}
+        <div class="row">
+            <div class="col embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        
+        {% for social in page.insertion_social %}
+        <div class="row">
+            <div class="col">{{ social.contenu_code_block }}</div>
+        </div>
+        {% endfor %}
     </div>
 </div>
 <!-- POST -->

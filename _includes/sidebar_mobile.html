@@ -1,8 +1,12 @@
 <nav class="side-menu-mobile navbar p-0">
-  <a class="navbar-brand" href="#">
+  <a class="d-flex flex-row w-100" href="#">
     <img class="logo" src="{{ site.data.configuration.logo_image | relative_url }}" alt="logo" width="80">
+    <img class="logo" src="{{ "assets/img/logo-covid.png" | relative_url }}" alt="covid" >
   </a>
-  <form class="form-inline mr-2">
-      <a class="btn btn-don btn-primary p-2" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.texte }}</a>
-  </form>
+
+  <!-- BUTTON DONATE -->
+  <a target="_blank" class="d-block btn-donate w-100 m-0 text-uppercase text-center" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}">
+    JE DONNE
+  </a>
+  <!-- BUTTON DONATE -->
 </nav>
