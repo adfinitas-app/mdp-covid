@@ -3,22 +3,6 @@
 .content {
 	padding-right: $sideMenu-Width;
 	
-	#mobilise {
-		position: relative;
-		left: 250px;
-		top: 10px;
-	}
-	
-	.edito-title {
-		margin-top: 40px;
-	}
-	
-	#ligne-rouge {
-		position: absolute;
-		left: 150px;
-		top: 70px;
-	}
-	
 	.message-president {
 		padding: 20px;
 		
@@ -61,71 +45,6 @@
 		}
 	}
 	
-	.blog {
-		
-
-		//POSTS
-		.posts {
-			padding: 20px;
-			
-			.post {
-				position: relative;
-				padding: 20px;
-				
-				.post-publication-time {
-					background-color: rgba(87, 25, 54, 0.1);
-					height: 70px;
-					width: 150px;
-					padding-top: 20px;
-					line-height:1;
-					color: $primary;
-					text-align: center;
-					
-					.hour {
-						color: $quaternary;
-					}
-				}
-				
-				.post-image {
-					width: 100%;
-				}
-				
-				.post-title {
-					font-weight: bold;
-					font-size: 26px;
-					font-family: $bodyFontFamilySecondary;
-					margin-bottom: 10px;;
-				}
-				
-				.post-content {
-					font-size: 16px;
-					font-family: 'Open Sans', sans-serif;
-				}
-				
-				// POST URGENCE
-				&.urgence .post-publication-time {
-					background-color: $primary;	
-					color: $white;
-					
-					.hour {
-						color: $quaternary
-					}
-				}
-				
-				// POST PINNED
-				&.pinned .post-publication-time {
-					padding-top: 25px;
-					color: $quaternary;
-					
-					.pin {
-						margin-right: 10px;
-						position: relative;
-						top: -2px;
-					}	
-				}
-			}
-		}
-	}
 }
 
 // ################ Mobile

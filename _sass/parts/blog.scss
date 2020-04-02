@@ -1,0 +1,127 @@
+@charset 'utf-8';
+
+// Blog champ date
+$blog-PostDateColor: $primary;
+$blog-PostDateFontFamily: 'Lucida Grande';
+$blog-PostDateFontSize: 12px;
+
+
+// Blog champ time
+$blog-PostTimeColor: rgba(0, 0, 0, 0.3);
+$blog-PostTimeFontFamily: 'Lucida Grande';
+$blog-PostTimeFontSize: 11px;
+
+// Blog title
+$blog-PostTitleColor: $black;
+$blog-PostTitleFontFamily: 'League Gothic';
+$blog-PostTitleFontSize: 25px;
+
+// Blog description
+$blog-PostDescriptionColor: $black;
+$blog-PostDescriptionFontFamily: 'Open Sans';
+$blog-PostDescriptionFontSize: 14px;
+
+.blog {
+    .posts {
+        padding: 10px;
+
+        .post {
+            padding: 20px 20px 0 0;
+
+            .date {
+                color: $blog-PostDateColor;
+                font-family: $blog-PostDateFontFamily;
+                font-size: $blog-PostDateFontSize;
+            }
+
+            .time {
+                color: $blog-PostTimeColor;
+                font-family: $blog-PostTimeFontFamily;
+                font-size: $blog-PostTimeFontSize;
+            }
+
+            .picto-horloge {
+                position: relative;
+                
+            }
+
+            .title {
+                color: $blog-PostTitleColor;
+                font-family: $blog-PostTitleFontFamily;
+                font-size: $blog-PostTitleFontSize;
+            }
+
+            .description {
+                color: $blog-PostDescriptionColor;
+                font-family: $blog-PostDescriptionFontFamily;
+                font-size: $blog-PostDescriptionFontSize;
+            }
+        }
+    }
+
+
+
+
+
+
+        //POSTS
+		// .posts {
+			
+		// 	.post {
+		// 		position: relative;
+		// 		padding: 20px;
+				
+		// 		.post-publication-time {
+		// 			background-color: rgba(87, 25, 54, 0.1);
+		// 			height: 70px;
+		// 			width: 150px;
+		// 			padding-top: 20px;
+		// 			line-height:1;
+		// 			color: $primary;
+		// 			text-align: center;
+					
+		// 			.hour {
+		// 				color: $quaternary;
+		// 			}
+		// 		}
+				
+		// 		.post-image {
+		// 			width: 100%;
+		// 		}
+				
+		// 		.post-title {
+		// 			font-weight: bold;
+		// 			font-size: 26px;
+		// 			font-family: $bodyFontFamilySecondary;
+		// 			margin-bottom: 10px;;
+		// 		}
+				
+		// 		.post-content {
+		// 			font-size: 16px;
+		// 			font-family: 'Open Sans', sans-serif;
+		// 		}
+				
+		// 		// POST URGENCE
+		// 		&.urgence .post-publication-time {
+		// 			background-color: $primary;	
+		// 			color: $white;
+					
+		// 			.hour {
+		// 				color: $quaternary
+		// 			}
+		// 		}
+				
+		// 		// POST PINNED
+		// 		&.pinned .post-publication-time {
+		// 			padding-top: 25px;
+		// 			color: $quaternary;
+					
+		// 			.pin {
+		// 				margin-right: 10px;
+		// 				position: relative;
+		// 				top: -2px;
+		// 			}	
+		// 		}
+		// 	}
+		//}
+	}

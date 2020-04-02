@@ -13,9 +13,16 @@
             <div class="col-sm-12 col-md-2"></div>
             <div class="col-sm-12 col-md-8 text-center">
                 <p class="texte text-bold">{{ site.data.configuration.edito.introduction.introduction_html }}</p>
-                <a class="d-inline-block show-more-container" href="/edito.html">
-                    <img class="show-more" src="{{ "assets/img/plus.png" | relative_url }}" alt="+" /> 
-                </a>
+                {% assign isOpen = include.isOpen | default: false %}
+                {% if isOpen == false %}
+                    <a class="d-inline-block show-more-container" href="/edito.html">
+                        <img class="show-more" src="{{ "assets/img/plus.png" | relative_url }}" alt="+" />
+                    </a>
+                {% else %}
+                    <a class="d-inline-block show-more-container" href="/">
+                        <img class="show-more" src="{{ "assets/img/close.png" | relative_url }}" alt="X" />
+                    </a>
+                {% endif %}
             </div>
         </div>
     </div>

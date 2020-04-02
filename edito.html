@@ -1,6 +1,5 @@
 ---
 title: "Actualité - COVID-19"
-layout: default
 ---
 {%- include progress-bar.html -%}
 
@@ -16,9 +15,11 @@ layout: default
         </div>
     </div>
 
-     <!-- POST_MOBILE -->
-     {%- include post_mobile.html -%}
-     <!-- POST_MOBILE -->
+    <section class="posts">
+        {% for post in site.posts %}
+        {% include post_excerpt_mobile.html post=post %}
+        {% endfor %}
+    </section>
 
     <!-- Popup -->
     {% include footer_mobile.html %}
@@ -36,17 +37,21 @@ layout: default
 
     <div class="content">
         <!--EDITO-->
-        {% include edito_desktop.html isOpen = false %}
+        {% include edito_desktop.html isOpen = true %}
         <!--EDITO-->
 
 
-        <!-- POST_DESKTOP -->
-        <div class="blog">
-            <section class="posts">
-                {%- include post_desktop.html -%}
-            </section>
+        <!-- EDITO FULL -->
+        <div class="row mt-5">
+            <div class="col-2">
+
+            </div>
+            <div class="col-8">
+                {{ site.data.configuration.edito.introduction.contenu_html }}
+            </div>
         </div>
-        <!-- POST_DESKTOP -->
+        <!-- EDITO FULL -->
+
     </div>
 </div>
 <!-- END DESKTOP-->

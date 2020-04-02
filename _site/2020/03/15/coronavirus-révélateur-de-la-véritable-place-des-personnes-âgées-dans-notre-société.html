@@ -73,25 +73,37 @@ document.addEventListener('scroll', function() {
       <a class="btn btn-don btn-primary p-2" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV&frequency=once" role="button">Je fais un don</a>
   </form>
 </nav>
-<!-- LINKS -->
-    <div class="row links">
-                <div class="col-sm-12 col-md-12">
-                    <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3">
-                        <img src="/assets/img/fleche-gauche.png" alt="Flèche" class="mr-2"/> Revenir aux actualitées
-                    </a>
-                </div>
+<div class="row p-3 message-president bg-quaternary text-white">
+    <div class="col">
+      <p class="fs-30 text-condensed text-bold text-uppercase text-center">La Mie de Pain se mobilise</p>
+      <!-- <div class="row">
+          <div class="col-sm-4 col-12">
+              <div class="text-center text-sm-right">
+                  <img src="/_site/uploads/pfp-1024x892-v2.png" alt="president"/>
+              </div>
+          </div>
+          <div class="col-sm-8 col-12">
+              <div class="d-none d-sm-block d-md-none"><br></div>
+              <p class="text-center text-sm-left president-text"><span class="text-bold text-condensed"></span><br> </p>
+          </div>
+      </div> -->
+      <p class="text-bold text-center fs-20">Dans le contexte sanitaire actuel, les Œuvres de la Mie de Pain sont plus que jamais mobilisées pour prendre soin des plus fragiles.</p>
+
+      <p class="mt-4 text-bold click-to-expand">Dès les débuts de l’épidémie de coronavirus, elles ont rappelé les consignes d’hygiène, les gestes barrières et veiller à ce que chacun ait accès au nécessaire pour se laver les mains facilement et régulièrement. Une réunion d’information avec la direction collégiale et un médecin bénévole à l’infirmerie du Refuge, a permis aux salariés et bénévoles de poser leurs questions sur la maladie et la conduite à tenir. <br><br> Afin d’assurer la poursuite de ses missions essentielles et de veiller à la protection du public qu’elles accueillent, ainsi que des équipes salariées et bénévoles, la direction de l’association a travaillé, en amont du passage au stade 3, un plan de continuité, dorénavant actif dans l’ensemble de l’association, concernant les salariés, les bénévoles, ainsi que les personnes accueillies ou hébergées. Objectif : adapter les activités, pour maintenir les activités essentielles de l’association, tout en préservant la santé et la sécurité de tous. <br><br> Grâce à la mobilisation, la vigilance, la responsabilité et la solidarité de tous ses acteurs, et avec certains changements temporaires en termes d’organisation, l’association poursuit sa mission historique : l’assistance aux personnes en danger.</p>
+      <div class="text-center">
+          <img id="arrow-down" class="arrow-down" src="/assets/img/arrow-down.png" alt="fleche vers le bas"/>
+      </div>
     </div>
-    <!-- LINKS -->
-    <div class="bandeau-covid bg-urgence">
-        <p class="covid-19 bg-primary w-100">
-            <span class="text-quaternary">ACTUALITÉ</span>
-            <span class="text-bold text-white"> COVID-19</span>
-        </p>
+</div>
+<div class="row bandeau-covid bg-urgence">
+        <div class="col">
+          <p class="text-center text-white">
+              CORONAVIRUS : RÉVÉLATEUR DE LA VÉRITABLE PLACE DES PERSONNES ÂGÉES DANS NOTRE SOCIÉTÉ ? - Dernière mise à jour <span>01/04/20 22:00</span>
+          </p>
+        </div>
     </div>
 
-    <div class="blog">
-        <section class="posts p-0">
-            <div class="row last-update text-center m-2">
+     <!-- POST_MOBILE --><div class="row last-update text-center m-2">
   <div class="col">
     <span class="last-update-time text-uppercase text-grey"> Article publié le</span>
     <span class="last-update-time text-bold text-primary">15.03.2020</span>
@@ -151,12 +163,10 @@ document.addEventListener('scroll', function() {
     </div>
     
 </article>
+<!-- POST_MOBILE -->
 
-        </section>
-   </div>
-
-   <!-- Popup -->
-   <div class="row">
+    <!-- Popup -->
+    <div class="row">
     <div class="col">
       <a href="#" class="text-quaternary text-uppercase text-bold small ml-auto mr-auto" data-toggle="modal" data-target="#cgu">CGU</a>
       |
@@ -168,7 +178,7 @@ document.addEventListener('scroll', function() {
     </div>
 </div>
 
-    <!-- End popup -->
+     <!-- End popup -->
 
 </div>
 <!-- END MOBILE -->
@@ -258,65 +268,74 @@ document.addEventListener('scroll', function() {
 
     <div class="content">
         <!--EDITO-->
-        <header class="bg-quaternary text-white message-president">
-            <div class="row">
-                <div class="col-sm-12 col-lg-3 position-relative">
-                    <img src="/assets/img/logo-mdp.png" alt="logo" width="150"/>
-                </div>
+        <header class="edito">
+    <!-- BANDEAU -->
+    <div class="bandeau d-flex flex-row p-1 align-items-center">
+        <img src="/assets/img/logo-covid.png" alt="Logo COVID-19"/>
+        <span class="title ml-4 text-uppercase">La Mie de Pain se mobilise</span>
+        <span class="last-update-time ml-auto mt-auto">Dernière mise à jour <span class="date">01:04:2020</span></span>
+    </div>
+    <!-- BANDEAU -->
+    
+    <!-- HEADER -->
+    <div class="introduction d-flex align-items-center justify-content-center flex-column">
+        <div class="row">
+            <div class="col-sm-12 col-md-2"></div>
+            <div class="col-sm-12 col-md-8 text-center">
+                <p class="texte text-bold">Dans le contexte sanitaire actuel, les Œuvres de la Mie de Pain sont plus que jamais mobilisées pour prendre soin des plus fragiles.</p>
+                
+                
+                    <a class="d-inline-block show-more-container" href="/edito.html">
+                        <img class="show-more" src="/assets/img/plus.png" alt="+" />
+                    </a>
+                
             </div>
-        </header>
+        </div>
+    </div>
+    <!-- HEADER -->
+</header>
+
         <!--EDITO-->
 
 
+        <!-- POST_DESKTOP -->
         <div class="blog">
-            <p class="covid-19 bg-primary w-100"><span class="text-quaternary">ACTUALITÉ</span><span class="text-bold text-white"> COVID-19</span></p>
+            <section class="posts">
 
-            <!-- LINKS -->
-            <div class="row links">
-                <div class="col-sm-12 col-md-12">
-                    <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3">
-                        <img src="/assets/img/fleche-gauche.png" alt="Flèche" class="mr-2"/> Revenir aux actualitées
-                    </a>
+<!-- POST -->
+<div class="post ">
+    <div class="row no-gutters">
+        <!-- POST DATE TIME -->
+        <div class="col-sm-12 col-md-2">
+            <div class="d-flex flex-row align-items-center justify-content-center mt-2">
+                <div class="d-flex flex-column">
+                    <span class="date text-bold text-uppercase text-right">15 March</span>
+                    <span class="time text-right">à 05h00</span>
+                </div>
+                <div>
+                    <img src="/assets/img/horloge.png" class="ml-2">
                 </div>
             </div>
-            <!-- LINKS -->
-
-
-            <!-- Posts -->
-              <!-- Last update time -->
-<div class="row ml-4 mr-4">
-    <div class="col-sm-12 col-md-4">
-        <div class="horizontal-line"></div>
-    </div>
-    <div class="col-sm-12 col-md-4">
-        <p class="last-update text-center">
-            Article publié le
-            <span class="last-update-time text-condensed text-primary">15.03.2020</span>
-        </p>
-    </div>
-    <div class="col-sm-12 col-md-4">
-        <div class="horizontal-line"></div>
-    </div>
-</div>
-<!-- Last update time -->
-
- <!-- Posts -->
-<section class="row posts">
-    <div class="col">
-      <div class="post">
-        <div class="row no-gutters">
-            <div class="col-sm-12 col-md-10">
-                <h1 class="post-title text-uppercase text-quaternary">CORONAVIRUS : RÉVÉLATEUR DE LA VÉRITABLE PLACE DES PERSONNES ÂGÉES DANS NOTRE SOCIÉTÉ ?</h1>
-            </div>
-
         </div>
-        <div class="row no-gutters">
-            <div class="col-sm-12 col-md-12">
-                <article>
-                    <div class="position-relative d-flex">
-                        <img class="post-image" src="/assets/img/placeholder-post.png" alt="Image post"/>
+        <!-- POST DATE TIME -->
+        
+        <!-- POST CONTENT -->
+        <div class="col-sm-12 col-md-10">
+            <h1 class="title">CORONAVIRUS : RÉVÉLATEUR DE LA VÉRITABLE PLACE DES PERSONNES ÂGÉES DANS NOTRE SOCIÉTÉ ?</h1>
+            
+                <div class="row">
+                    <div class="col-5">
+                        <img src="/assets/img/placeholder-post.png" class="w-100"/>
                     </div>
-                    <div class="post-content text-secondary mt-3"><p><strong>Ces quelques semaines, avec la grave crise sanitaire que la France et de nombreux pays rencontrent, les citoyens se rendent peu à peu compte d’un véritable fléau dénoncé par les Petits Frères des Pauvres depuis longtemps : l’isolement des personnes âgées. Pour l’Association, c’est le moment d’éveiller les consciences face à l’impérieuse nécessité de se préoccuper de nos aînés.</strong></p>
+                    <div class="col-7">
+                        <div class="description">
+                            <p>Ces quelques semaines, avec la grave crise sanitaire que la France et de nombreux pays rencontrent, les citoyens se rendent peu &agrave; peu compte d&rsquo;un v&eacute;ritable fl&eacute;au d&eacute;nonc&eacute; par les Petits Fr&egrave;res des Pauvres depuis longtemps : l&rsquo;isolement des personnes &acirc;g&eacute;es. Pour l&rsquo;Association, <strong>c&rsquo;est le moment d&rsquo;&eacute;veiller les consciences</strong> face &agrave; l&rsquo;imp&eacute;rieuse n&eacute;cessit&eacute; de se pr&eacute;occuper de nos a&icirc;n&eacute;s. </p>
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="description">
+                <p><strong>Ces quelques semaines, avec la grave crise sanitaire que la France et de nombreux pays rencontrent, les citoyens se rendent peu à peu compte d’un véritable fléau dénoncé par les Petits Frères des Pauvres depuis longtemps : l’isolement des personnes âgées. Pour l’Association, c’est le moment d’éveiller les consciences face à l’impérieuse nécessité de se préoccuper de nos aînés.</strong></p>
 
 <p>Seules, tristes, isolées, recluses chez elles… Le sort des 900 000 personnes âgées en situation d’isolement social dénoncé depuis des années par les Petits Frères des Pauvres est aujourd’hui au cœur de la grave crise sanitaire du coronavirus. </p>
 
@@ -341,23 +360,15 @@ document.addEventListener('scroll', function() {
 <p>En effet, bien qu’extrêmement grave sur le plan sanitaire et économique, « <em>cette crise pourrait avoir une vertu,</em> selon Jean-Louis Wathy, Délégué Général Adjoint des Petits Frères des Pauvres, <em>celle de retisser le lien social qui s’est effiloché avec la montée de l’individualisme. Cette épidémie va nous pousser dans nos retranchements pour repenser notre société</em> » espère-t-il.</p>
 
 <p>Alors que de nombreux citoyens se sont déjà spontanément engagés pour rendre service à leurs aînés, les Petits Frères des Pauvres encouragent également tous les Français à maintenir le lien social et à apporter une aide solidaire à leurs proches âgés et aux aînés en proximité (immeuble, quartier).</p>
-</div>
-                    
-                    
-                        
-                    
-                      
-                    
-                    <div class=""></div>
-                    
-                </article>
+
             </div>
         </div>
+        <!-- POST CONTENT -->
     </div>
-</section>
-
-            <!-- Posts -->
+</div>
+<!-- POST --></section>
         </div>
+        <!-- POST_DESKTOP -->
     </div>
 </div>
 <!-- END DESKTOP-->

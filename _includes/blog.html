@@ -1,0 +1,11 @@
+<div class="blog">
+
+    <!-- Posts -->
+    <section class="posts">
+        {% for post in site.posts %}
+            {% include post_excerpt_desktop.html post=post %}
+        {% endfor %}
+    </section>
+    <!-- Posts -->
+
+</div>

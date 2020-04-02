@@ -15,30 +15,11 @@ title: "Actualité - COVID-19"
         </div>
     </div>
 
-    <!-- LINKS -->
-    <div class="row links pt-3 pr-0 pl-0">
-        <div class="col-sm-12 col-md-8">
-            {% include links.html onlyHighlighted=true %}
-        </div>
-        <div class="col-sm-12 col-md-4 d-flex align-items-center">
-            <a href="/liens.html" class="text-bold text-uppercase d-inline-block ml-auto ml-md-0 mt-2 mt-md-0" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
-        </div>
-    </div>
-    <!-- LINKS -->
-
     <section class="posts">
-        <!-- Pinned -->
-        {% for post in site.posts %}
-        {% if post.isPinned == true %}
-        {% include post_excerpt_mobile.html post=post %}
-        {% endif %}
-        {% endfor %}
-        <!-- Pinned -->
+
 
         {% for post in site.posts %}
-        {% if post.isPinned == false %}
         {% include post_excerpt_mobile.html post=post %}
-        {% endif %}
         {% endfor %}
     </section>
 
@@ -58,21 +39,13 @@ title: "Actualité - COVID-19"
 
     <div class="content">
         <!--EDITO-->
-        {%- include edito_desktop.html -%}
+        {% include edito_desktop.html isOpen = false %}
         <!--EDITO-->
 
 
-        <div class="blog">
-            <!-- Posts -->
-            <section class="row posts">
-                <div class="col">
-                    {% for post in site.posts %}
-                    {% include post_excerpt_desktop.html post=post %}
-                    {% endfor %}
-                </div>
-            </section>
-            <!-- Posts -->
-        </div>
+        <!-- BLOG -->
+        {%- include blog.html -%}
+        <!-- BLOG -->
     </div>
 </div>
 <!-- END DESKTOP-->

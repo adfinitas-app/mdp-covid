@@ -1,6 +1,6 @@
 ---
 date: 2020-03-15 12:00:00
-title: Maintenir le lien social avec les personnes âgées
+title: Maintenir le lien social avec les personnes agees
 description_html: >-
   <p>Pour&nbsp;<strong>maintenir le lien social avec les personnes
   &acirc;g&eacute;es</strong>&nbsp;accompagn&eacute;es par l'Association, les
