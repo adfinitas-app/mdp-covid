@@ -9,7 +9,7 @@
 <!-- POST -->
 <div class="post {{classNames}}">
     <!-- GO BACK -->
-    <div class="row no-gutters mb-3">
+    <div class="row no-gutters mb-5">
         <div class="col-sm-12 col-md-2">
         </div>
         <div class="col-sm-12 col-md-10">
@@ -59,22 +59,23 @@
             <div class="description">
                 {{page.content}}
             </div>
+            
+            {% for video in page.video %}
+            {% if video.video_code_block %}
+            <div class="row">
+                <div class="col embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+            </div>
+            {% endif %}
+            {% endfor %}
+            
+            {% for social in page.insertion_social %}
+            <div class="row">
+                <div class="col">{{ social.contenu_code_block }}</div>
+            </div>
+            {% endfor %}
+            
         </div>
         <!-- POST CONTENT -->
-        
-        {% for video in page.video %}
-        {% if video.video_code_block %}
-        <div class="row">
-            <div class="col embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
-        </div>
-        {% endif %}
-        {% endfor %}
-        
-        {% for social in page.insertion_social %}
-        <div class="row">
-            <div class="col">{{ social.contenu_code_block }}</div>
-        </div>
-        {% endfor %}
     </div>
 </div>
 <!-- POST -->
