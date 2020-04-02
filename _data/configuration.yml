@@ -17,7 +17,7 @@ sidebar:
       texte: Je fais un don
       button-text: Je donne <span class="btn-donate-value">80</span>€
       gift_url: >-
-        https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV&frequency=once
+        https://donner.miedepain.asso.fr/157/~mon-don?reserved_code_media=WC20-1-LP
       amount1_number: 60
       amount2_number: 110
       amount3_number: 140
@@ -25,7 +25,7 @@ sidebar:
       activate: false
       texte: Je fais un don chaque mois
       gift_url: >-
-        https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=regular
+        https://donner.miedepain.asso.fr/157/~mon-don?reserved_code_media=WC20-1-LP
       amount1_number: 15
       amount2_number: 20
       amount3_number: 30
