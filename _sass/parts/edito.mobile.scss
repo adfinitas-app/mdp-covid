@@ -70,6 +70,7 @@ $edito-IntroductionTexteFontSize: 20px;
             border-radius: 36%;
             border: 3px solid $primary;
             transition: background $transitionSpeed ease-in-out;
+            cursor: pointer;
 
             .show-more {
                 padding: 4px 0;
@@ -79,5 +80,11 @@ $edito-IntroductionTexteFontSize: 20px;
                 background-color: $primary;
             }
         }
+    }
+    
+    .contenu_html {
+        color: $edito-ContenuHtmlColor;
+        font-family: $edito-ContenuHtmlFontFamily;
+        font-size: $edito-ContenuHtmlFontSize;
     }
 }

@@ -1,7 +1,7 @@
 // CLICK TO EXPAND
 
-$('.arrow-down').on('click', function() {
-    $(this).toggleClass('active');
+$('.show-more-container').on('click', function() {
+    $('.arrow-down').toggleClass('active');
     
     const maxHeight = $('.click-to-expand').css('max-height');
     
