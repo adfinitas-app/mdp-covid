@@ -10,7 +10,7 @@ description_html: >-
   b&eacute;n&eacute;voles (avec plusieurs sp&eacute;cialit&eacute;s
   repr&eacute;sent&eacute;es), une infirmi&egrave;re b&eacute;n&eacute;vole et
   une aide-soignante. Une &eacute;quipe pleinement engag&eacute;e dans le combat
-  contre l&rsquo;&eacute;pid&eacute;mie</p>
+  contre l&rsquo;&eacute;pid&eacute;mie.</p>
 insertion_social:
   - contenu_code_block:
 video:
