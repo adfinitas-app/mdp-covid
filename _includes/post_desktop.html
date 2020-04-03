@@ -57,6 +57,15 @@
             </div>
             {% endif %}
             <div class="description">
+                {% if page.podcast_source %}
+                <audio controls style="width: 100%;">
+                    <source src="{{page.podcast_source}}" type="audio/mp4">
+                  Your browser does not support the audio element.
+                </audio>
+                {% endif %}
+            </div>
+
+            <div class="description">
                 {{page.content}}
             </div>
             

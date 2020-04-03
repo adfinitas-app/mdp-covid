@@ -26,4 +26,5 @@ video:
   - video_code_block: >-
       <iframe width="560" height="315" src="https://www.youtube.com/embed/c63YVbfh4gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 asset_image: assets/img/image_post.png
+podcast_source:
 ---

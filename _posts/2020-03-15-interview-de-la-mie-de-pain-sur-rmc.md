@@ -14,6 +14,7 @@ insertion_social:
 video:
   - video_code_block:
 asset_image: /uploads/rmc.png
+podcast_source: /assets/podcast/interview.m4a
 ---
 
 Les Œuvres de la Mie de Pain sont plus que jamais mobilis&eacute;es pour accueillir les plus fragiles et subvenir &agrave; leurs besoins essentiels.
