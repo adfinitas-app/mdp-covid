@@ -21,6 +21,4 @@ Une r&eacute;union d’information avec la direction coll&eacute;giale et un m&e
 
 Afin d’assurer la poursuite de ses missions essentielles et de veiller &agrave; la protection du public qu’elles accueillent, ainsi que des &eacute;quipes salari&eacute;es et b&eacute;n&eacute;voles, la direction de l’association a travaill&eacute;, en amont du passage au stade 3, un plan de continuit&eacute;, dor&eacute;navant actif dans l’ensemble de l’association, concernant les salari&eacute;s, les b&eacute;n&eacute;voles, ainsi que les personnes accueillies ou h&eacute;berg&eacute;es. Objectif : adapter les activit&eacute;s, pour maintenir les activit&eacute;s essentielles de l’association, tout en pr&eacute;servant la sant&eacute; et la s&eacute;curit&eacute; de tous.
 
-&nbsp;
-
 Gr&acirc;ce &agrave; la mobilisation, la vigilance, la responsabilit&eacute; et la solidarit&eacute; de tous ses acteurs, et avec certains changements temporaires en termes d’organisation, l’association poursuit sa mission historique : l’assistance aux personnes en danger.
