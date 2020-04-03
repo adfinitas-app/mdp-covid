@@ -6,14 +6,13 @@ description_html: >-
   &agrave; la rue est au c&oelig;ur des missions des &OElig;uvres de la Mie de
   Pain. Aujourd&rsquo;hui, plus que jamais, l&rsquo;association reste
   mobilis&eacute;e pour aider ces personnes, encore plus vuln&eacute;rables en
-  situation de crise sanitaire.&nbsp;</strong></p><p>&nbsp;</p>
-
+  situation de crise sanitaire. Objectif : pallier aux besoins essentiels que
+  sont l&rsquo;hygi&egrave;ne, l&rsquo;h&eacute;bergement et
+  l&rsquo;alimentation.</strong></p><p>&nbsp;</p>
 video:
   - video_code_block:
 asset_image: assets/img/placeholder-post.png
 ---
-
-**Depuis plus de 130 ans, l’aide d’urgence aux personnes &agrave; la rue est au cœur des missions des Œuvres de la Mie de Pain. Aujourd’hui, plus que jamais, l’association reste mobilis&eacute;e pour aider ces personnes, encore plus vuln&eacute;rables en situation de crise sanitaire. Objectif : pallier aux besoins essentiels que sont l’hygi&egrave;ne, l’h&eacute;bergement et l’alimentation.**
 
 Parce que l’hygi&egrave;ne est primordiale dans un tel contexte et que plusieurs accueils de jour sont actuellement ferm&eacute;s, l’association propose toujours aux personnes sans-abri, hommes et femmes, de venir prendre une douche au sein de son espace solidarit&eacute; insertion, l’Arche d’Avenirs (113 rue Regnault Paris 13e). Hier, 41 personnes en ont b&eacute;n&eacute;fici&eacute;. La buanderie &eacute;tant ferm&eacute;e, les &eacute;quipes distribuent des jetons pour laver son linge en laverie automatique.
 
