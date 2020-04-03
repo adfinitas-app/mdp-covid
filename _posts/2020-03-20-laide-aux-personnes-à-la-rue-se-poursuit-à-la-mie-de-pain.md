@@ -3,12 +3,11 @@ date: 2020-03-20 12:00:00
 title: L’aide aux personnes à la rue se poursuit à la Mie de Pain
 description_html: >-
   <p><strong>Depuis plus de 130 ans</strong>, l&rsquo;aide d&rsquo;urgence aux
-  personnes &agrave; la rue est au c&oelig;ur des missions des
-  <strong>&OElig;uvres de la Mie de Pain</strong>. Aujourd&rsquo;hui, plus que
-  jamais, l&rsquo;association reste mobilis&eacute;e pour aider ces personnes,
-  encore plus vuln&eacute;rables en situation de crise sanitaire.
-  <strong>Objectif </strong>: pallier aux besoins essentiels que sont
-  l&rsquo;hygi&egrave;ne, l&rsquo;h&eacute;bergement et
+  personnes &agrave; la rue est au c&oelig;ur des missions des &OElig;uvres de
+  la Mie de Pain. Aujourd&rsquo;hui, plus que jamais, l&rsquo;association reste
+  mobilis&eacute;e pour aider ces personnes, encore plus vuln&eacute;rables en
+  situation de crise sanitaire. Objectif : pallier aux besoins essentiels que
+  sont l&rsquo;hygi&egrave;ne, l&rsquo;h&eacute;bergement et
   l&rsquo;alimentation.</p><p>&nbsp;</p>
 video:
   - video_code_block:
