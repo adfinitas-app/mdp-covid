@@ -25,7 +25,7 @@ insertion_social:
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 video:
   - video_code_block:
-asset_image: assets/img/placeholder-post.png
+asset_image:
 ---
 
 **En pleine crise du coronavirus, l’hygi&egrave;ne et la sant&eacute; des personnes qu’elles h&eacute;bergent sont plus que jamais une priorit&eacute; pour les Œuvres de la Mie de Pain. Et pour cela, elle peut compter sur la mobilisation sans faille de l’&eacute;quipe de l’infirmerie du Refuge : dix m&eacute;decins b&eacute;n&eacute;voles (avec plusieurs sp&eacute;cialit&eacute;s repr&eacute;sent&eacute;es), une infirmi&egrave;re b&eacute;n&eacute;vole et une aide-soignante.**&nbsp;**Une &eacute;quipe pleinement engag&eacute;e dans le combat contre l’&eacute;pid&eacute;mie.**
