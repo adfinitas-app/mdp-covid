@@ -1,5 +1,5 @@
 ---
-date: 2020-03-31 00:30:00
+date: 2020-03-24 00:30:00
 title: Hygiène et santé en priorité
 description_html: >-
   <p><strong>En pleine crise du coronavirus</strong>, l&rsquo;hygi&egrave;ne et
