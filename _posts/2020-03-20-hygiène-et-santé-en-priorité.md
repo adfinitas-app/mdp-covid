@@ -15,7 +15,7 @@ insertion_social:
   - contenu_code_block:
 video:
   - video_code_block:
-asset_image: /uploads/infirmerie-mars-2020-v2.jpg
+asset_image: /uploads/2-7.png
 ---
 
 En plus de leurs missions habituelles, les m&eacute;decins b&eacute;n&eacute;voles mettent actuellement leur expertise scientifique au service de l’association. L’un d’entre eux a accept&eacute; la mission de m&eacute;decin-conseil sur le covid-19 pour la Mie de Pain. Le plan de continuit&eacute; des activit&eacute;s lui a &eacute;t&eacute; soumis pour s’assurer que les mesures d&eacute;cid&eacute;es contribuent &agrave; pr&eacute;venir la contagion. Et en amont du passage en stade 3, une r&eacute;union d’information avec la direction coll&eacute;giale et deux m&eacute;decins, dont le m&eacute;decin-conseil, a &eacute;t&eacute; propos&eacute;e pour sensibiliser les salari&eacute;s et les b&eacute;n&eacute;voles &agrave; cette maladie et ses cons&eacute;quences, et r&eacute;pondre &agrave; leurs &eacute;ventuelles interrogations.
