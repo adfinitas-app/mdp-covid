@@ -1,5 +1,6 @@
 ---
 date: 2020-03-20 12:00:00
+language: fr
 title: L’aide aux personnes à la rue se poursuit à la Mie de Pain
 description_html: >-
   <p><strong>Depuis plus de 130 ans, l&rsquo;aide d&rsquo;urgence aux personnes

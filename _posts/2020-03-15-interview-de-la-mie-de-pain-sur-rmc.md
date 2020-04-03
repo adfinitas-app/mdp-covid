@@ -1,5 +1,6 @@
 ---
 date: 2020-03-15 12:00:00
+language: fr
 title: Interview de la Mie de Pain sur RMC
 description_html: >-
   <p><em><strong>&laquo; Com</strong></em><strong><em>ment cela se passe-t-il

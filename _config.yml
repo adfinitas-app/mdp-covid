@@ -22,22 +22,30 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 gtm_id:
 
+# MANDATORY FOR JEKYLL TRANSLATION PLUGIN
+language_data: data.lang.%%
+language_includes_dir: _i18n
+
 defaults:
   -
     scope:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
+      permalink: /:day/:month/:year/:title/
+      language: fr
   -
     scope:
-      type: "page" # previously `post` in Jekyll 2.2.
+      type: "pages" # previously `post` in Jekyll 2.2.
     values:
       layout: "default"
+      language: fr
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sass-converter
   - jekyll-last-modified-at
+  - jekyll-language-plugin
 
 sass:
   sass_dir: _sass

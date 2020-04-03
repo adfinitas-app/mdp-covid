@@ -27,7 +27,7 @@
         <div class="col-sm-12 col-md-2">
             <div class="d-flex flex-row align-items-center justify-content-center mt-2">
                 <div class="d-flex flex-column">
-                    <span class="date text-bold text-uppercase text-right">{{page.date | date: '%d %B'}}</span>
+                    <span class="date text-bold text-uppercase text-right">{{ page.date | tdate: 'date.format' }}</span>
                     <span class="time text-right">à {{page.date | date: '%Hh%M'}}</span>
                 </div>
                 <div>

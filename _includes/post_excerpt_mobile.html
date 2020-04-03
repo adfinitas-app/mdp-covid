@@ -12,7 +12,7 @@
         <!-- POST DATE TIME -->
         <div class="col-sm-12">
             <div class="d-flex flex-row">
-                <span class="date text-bold text-uppercase">{{post.date | date: '%d %B'}}</span>
+                <span class="date text-bold text-uppercase">{{post.date | tdate: 'date.format'}}</span>
                 <span class="time ml-2">à {{post.date | date: '%Hh%M'}}</span>
             </div>
         </div>
