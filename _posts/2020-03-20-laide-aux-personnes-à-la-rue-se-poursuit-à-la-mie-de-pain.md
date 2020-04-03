@@ -11,7 +11,7 @@ description_html: >-
   l&rsquo;alimentation.</p><p>&nbsp;</p>
 video:
   - video_code_block:
-asset_image: assets/img/placeholder-post.png
+asset_image: /uploads/3-2.png
 ---
 
 Parce que l’hygi&egrave;ne est primordiale dans un tel contexte et que plusieurs accueils de jour sont actuellement ferm&eacute;s, l’association propose toujours aux personnes sans-abri, hommes et femmes, de venir prendre une douche au sein de son espace solidarit&eacute; insertion, l’Arche d’Avenirs (113 rue Regnault Paris 13e). Hier, 41 personnes en ont b&eacute;n&eacute;fici&eacute;. La buanderie &eacute;tant ferm&eacute;e, les &eacute;quipes distribuent des jetons pour laver son linge en laverie automatique.
