@@ -6,7 +6,12 @@ description_html: >-
   sant&eacute; des personnes qu&rsquo;elles h&eacute;bergent sont plus que
   jamais une priorit&eacute; pour les &OElig;uvres de la Mie de Pain. Et pour
   cela, elle peut compter sur la mobilisation sans faille de
-  l&rsquo;&eacute;quipe de l&rsquo;infirmerie du Refuge.</strong></p>
+  l&rsquo;&eacute;quipe de l&rsquo;infirmerie du Refuge : dix m&eacute;decins
+  b&eacute;n&eacute;voles (avec plusieurs sp&eacute;cialit&eacute;s
+  repr&eacute;sent&eacute;es), une infirmi&egrave;re b&eacute;n&eacute;vole et
+  une aide-soignante.</strong>&nbsp;<strong>Une &eacute;quipe pleinement
+  engag&eacute;e dans le combat contre
+  l&rsquo;&eacute;pid&eacute;mie</strong></p>
 insertion_social:
   - contenu_code_block: >-
       <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
@@ -27,8 +32,6 @@ video:
   - video_code_block:
 asset_image: /uploads/infirmerie-mars-2020-v2.jpg
 ---
-
-**En pleine crise du coronavirus, l’hygi&egrave;ne et la sant&eacute; des personnes qu’elles h&eacute;bergent sont plus que jamais une priorit&eacute; pour les Œuvres de la Mie de Pain. Et pour cela, elle peut compter sur la mobilisation sans faille de l’&eacute;quipe de l’infirmerie du Refuge : dix m&eacute;decins b&eacute;n&eacute;voles (avec plusieurs sp&eacute;cialit&eacute;s repr&eacute;sent&eacute;es), une infirmi&egrave;re b&eacute;n&eacute;vole et une aide-soignante.**&nbsp;**Une &eacute;quipe pleinement engag&eacute;e dans le combat contre l’&eacute;pid&eacute;mie.**
 
 En plus de leurs missions habituelles, les m&eacute;decins b&eacute;n&eacute;voles mettent actuellement leur expertise scientifique au service de l’association. L’un d’entre eux a accept&eacute; la mission de m&eacute;decin-conseil sur le covid-19 pour la Mie de Pain. Le plan de continuit&eacute; des activit&eacute;s lui a &eacute;t&eacute; soumis pour s’assurer que les mesures d&eacute;cid&eacute;es contribuent &agrave; pr&eacute;venir la contagion. Et en amont du passage en stade 3, une r&eacute;union d’information avec la direction coll&eacute;giale et deux m&eacute;decins, dont le m&eacute;decin-conseil, a &eacute;t&eacute; propos&eacute;e pour sensibiliser les salari&eacute;s et les b&eacute;n&eacute;voles &agrave; cette maladie et ses cons&eacute;quences, et r&eacute;pondre &agrave; leurs &eacute;ventuelles interrogations.
 
