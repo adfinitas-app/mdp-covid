@@ -13,7 +13,7 @@ insertion_social:
   - contenu_code_block:
 video:
   - video_code_block:
-asset_image: /uploads/rmc.png
+asset_image: /uploads/1-5.png
 podcast_source: /assets/podcast/interview.m4a
 ---
 
