@@ -6,12 +6,7 @@ description_html: >-
   sant&eacute; des personnes qu&rsquo;elles h&eacute;bergent sont plus que
   jamais une priorit&eacute; pour les &OElig;uvres de la Mie de Pain. Et pour
   cela, elle peut compter sur la mobilisation sans faille de
-  l&rsquo;&eacute;quipe de l&rsquo;infirmerie du Refuge : dix m&eacute;decins
-  b&eacute;n&eacute;voles (avec plusieurs sp&eacute;cialit&eacute;s
-  repr&eacute;sent&eacute;es), une infirmi&egrave;re b&eacute;n&eacute;vole et
-  une aide-soignante.</strong>&nbsp;<strong>Une &eacute;quipe pleinement
-  engag&eacute;e dans le combat contre
-  l&rsquo;&eacute;pid&eacute;mie.</strong></p>
+  l&rsquo;&eacute;quipe de l&rsquo;infirmerie du Refuge.</strong></p>
 insertion_social:
   - contenu_code_block: >-
       <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
