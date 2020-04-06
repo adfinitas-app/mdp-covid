@@ -1,7 +1,7 @@
 url:
 baseurl:
 title:
-gtm_id: GTM-KVZR5ZR
+gtm_id: KVZR5ZR
 language_data: data.lang.%%
 language_includes_dir: _i18n
 defaults:
