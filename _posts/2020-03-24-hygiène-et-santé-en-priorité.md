@@ -4,14 +4,14 @@ language: fr
 title: Hygiène et santé en priorité
 description_html: >-
   <p><strong>En pleine crise du coronavirus</strong>, l&rsquo;hygi&egrave;ne et
-  la sant&eacute; des personnes qu&rsquo;elles h&eacute;bergent sont plus que
-  jamais une priorit&eacute; pour les &OElig;uvres de la Mie de Pain. Et pour
-  cela, elle peut compter sur la mobilisation sans faille de
-  l&rsquo;&eacute;quipe de l&rsquo;infirmerie du Refuge : dix m&eacute;decins
-  b&eacute;n&eacute;voles (avec plusieurs sp&eacute;cialit&eacute;s
-  repr&eacute;sent&eacute;es), une infirmi&egrave;re b&eacute;n&eacute;vole et
-  une aide-soignante. Une &eacute;quipe pleinement engag&eacute;e dans le combat
-  contre l&rsquo;&eacute;pid&eacute;mie.</p>
+  la sant&eacute; des personnes h&eacute;berg&eacute;es et accueillies sont plus
+  que jamais une priorit&eacute; pour les &OElig;uvres de la Mie de Pain. Pour
+  cela, l&rsquo;association peut notamment compter sur la mobilisation sans
+  faille de l&rsquo;&eacute;quipe de l&rsquo;infirmerie du Refuge : dix
+  m&eacute;decins b&eacute;n&eacute;voles (avec plusieurs
+  sp&eacute;cialit&eacute;s repr&eacute;sent&eacute;es), une infirmi&egrave;re
+  b&eacute;n&eacute;vole et une aide-soignante. Une &eacute;quipe pleinement
+  engag&eacute;e dans le combat contre l&rsquo;&eacute;pid&eacute;mie.</p>
 insertion_social:
   - contenu_code_block:
 video:
