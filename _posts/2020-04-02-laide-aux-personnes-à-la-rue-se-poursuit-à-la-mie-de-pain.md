@@ -9,7 +9,7 @@ description_html: >-
   mobilis&eacute;e pour aider ces personnes, encore plus vuln&eacute;rables en
   situation de crise sanitaire. Objectif : pallier aux besoins essentiels que
   sont l&rsquo;hygi&egrave;ne, l&rsquo;h&eacute;bergement et
-  l&rsquo;alimentation.</p><p>&nbsp;</p>
+  l&rsquo;alimentation.</p>
 video:
   - video_code_block:
 asset_image: /uploads/3-2.png
