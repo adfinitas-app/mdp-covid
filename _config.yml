@@ -13,3 +13,17 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
+default:
+  -	
+    scope:	
+      type: "posts" # previously `post` in Jekyll 2.2.	
+    values:	
+      layout: "post"	
+      permalink: /:day/:month/:year/:title/	
+      language: fr	
+  -	
+    scope:	
+      type: "pages" # previously `post` in Jekyll 2.2.	
+    values:	
+      layout: "default"	
+      language: fr
