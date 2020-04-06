@@ -13,7 +13,7 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
-default:
+defaults:
   -	
     scope:	
       type: "posts" # previously `post` in Jekyll 2.2.	
