@@ -244,7 +244,9 @@ edito:
     job:
   introduction:
     title_html: <p>La Mie de Pain se mobilise</p>
-    introduction_html:
+    introduction_html: >-
+      <p>Dans le contexte sanitaire actuel, les Oeuvres de la Mie de Pain sont
+      plus que jamais mobilis&eacute;es pour prendre soin des plus fragiles.</p>
     contenu_html: >-
       <p>D&egrave;s les d&eacute;buts de l&rsquo;&eacute;pid&eacute;mie de
       coronavirus, les &OElig;uvres de la Mie de pain ont rappel&eacute; les
