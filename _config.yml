@@ -4,7 +4,6 @@ title:
 gtm_id: KVZR5ZR
 language_data: data.lang.%%
 language_includes_dir: _i18n
-defaults:
 plugins:
   - jekyll-feed
   - jekyll-sass-converter
